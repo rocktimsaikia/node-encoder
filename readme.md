@@ -36,4 +36,4 @@ Takes a single `base64` string input as argument and retuns it's `utf-8` decoded
 
 ## Support
 
-<a href="https://www.buymeacoffee.com/7BdaxfI"><img src="https://user-images.githubusercontent.com/33410545/91169112-5c1c7900-e6f4-11ea-9391-904093258dcb.png" height="80px"/></a>
+<a href="https://www.buymeacoffee.com/7BdaxfI"><img src="https://user-images.githubusercontent.com/33410545/91169112-5c1c7900-e6f4-11ea-9391-904093258dcb.png" height="70px"/></a>
