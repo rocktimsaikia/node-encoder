@@ -10,14 +10,16 @@ npm install node-encoder
 ## Usage
 
 ```js
-const {_encode, _decode} = require('node-encoder');
+const {_encode, _decode} = require('node-encoder')
 
 
-_encode('Everything is better with a unicorn 🦄');
+_encode('Everything is better with a unicorn 🦄')
+
 //=> RXZlcnl0aGluZyBpcyBiZXR0ZXIgd2l0aCBhIHVuaWNvcm4g8J+mhA==
 
 
-_decode('QmUgYSBVbmljb3JuIPCfpoQgaW4gYSBGaWVsZCBGdWxsIG9mIEhvcnNlcw==');
+_decode('QmUgYSBVbmljb3JuIPCfpoQgaW4gYSBGaWVsZCBGdWxsIG9mIEhvcnNlcw==')
+
 //=> Be a Unicorn 🦄 in a Field Full of Horses'
 ```
 
