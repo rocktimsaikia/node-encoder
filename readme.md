@@ -10,26 +10,26 @@ npm install node-encoder
 ## Usage
 
 ```js
-const {_encode, _decode} = require('node-encoder')
+const {encode, decode} = require('node-encoder')
 
 
-_encode('Everything is better with a unicorn 🦄')
+encode('Everything is better with a unicorn 🦄')
 
 //=> RXZlcnl0aGluZyBpcyBiZXR0ZXIgd2l0aCBhIHVuaWNvcm4g8J+mhA==
 
 
-_decode('QmUgYSBVbmljb3JuIPCfpoQgaW4gYSBGaWVsZCBGdWxsIG9mIEhvcnNlcw==')
+decode('QmUgYSBVbmljb3JuIPCfpoQgaW4gYSBGaWVsZCBGdWxsIG9mIEhvcnNlcw==')
 
 //=> Be a Unicorn 🦄 in a Field Full of Horses'
 ```
 
 ## API
 
-### _encode(input)
+### encode(input)
 
 Takes a single `utf-8/ascii` string input as argument and retuns it's `base64` encoded string version.
 
-### _decode(input)
+### decode(input)
 
 Takes a single `base64` string input as argument and retuns it's `utf-8` decoded string version.
 
