@@ -1,5 +1,5 @@
 # node-encoder ![build](https://travis-ci.com/RocktimSaikia/node-encoder.svg?branch=master) ![license](https://img.shields.io/github/license/rocktimsaikia/node-encoder)
-
+[![NPM Badge](https://nodei.co/npm/node-encoder.png)](https://npmjs.com/package/node-encoder)
 > A zero dependency `base64` based Encoder and Decoder for Node.js. :unicorn:
 
 ## Install
@@ -10,14 +10,16 @@ npm install node-encoder
 ## Usage
 
 ```js
-const {_encode, _decode} = require('node-encoder');
+const {_encode, _decode} = require('node-encoder')
 
 
-_encode('Everything is better with a unicorn 🦄');
+_encode('Everything is better with a unicorn 🦄')
+
 //=> RXZlcnl0aGluZyBpcyBiZXR0ZXIgd2l0aCBhIHVuaWNvcm4g8J+mhA==
 
 
-_decode('QmUgYSBVbmljb3JuIPCfpoQgaW4gYSBGaWVsZCBGdWxsIG9mIEhvcnNlcw==');
+_decode('QmUgYSBVbmljb3JuIPCfpoQgaW4gYSBGaWVsZCBGdWxsIG9mIEhvcnNlcw==')
+
 //=> Be a Unicorn 🦄 in a Field Full of Horses'
 ```
 
@@ -34,4 +36,4 @@ Takes a single `base64` string input as argument and retuns it's `utf-8` decoded
 
 ## Support
 
-<a href="https://www.buymeacoffee.com/7BdaxfI"><img src="https://user-images.githubusercontent.com/33410545/91169112-5c1c7900-e6f4-11ea-9391-904093258dcb.png" height="70px"/></a>
+<a href="https://www.buymeacoffee.com/7BdaxfI"><img src="https://user-images.githubusercontent.com/33410545/91206759-48d5d180-e725-11ea-93b5-754d98c007af.png" height="70px"/></a>
