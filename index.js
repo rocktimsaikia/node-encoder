@@ -14,7 +14,7 @@ const _typeValidation = input => {
  * Returns base64 string
  * @param {string} input | utf-8 string
  */
-const encode = input => {
+module.exports.encode = input => {
 	_typeValidation(input);
 
 	const buffer = Buffer.from(input, 'utf8');
@@ -26,15 +26,10 @@ const encode = input => {
  * Returns utf-8 string
  * @param {string} input | base64 string
  */
-const decode = input => {
+module.exports.decode = input => {
 	_typeValidation(input);
 
 	const buffer = Buffer.from(input, 'base64');
 	const decoded = buffer.toString('utf8');
 	return decoded;
-};
-
-module.exports = {
-	_encode: encode,
-	_decode: decode
 };
