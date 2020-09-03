@@ -1,6 +1,7 @@
-# node-encoder ![build](https://travis-ci.com/RocktimSaikia/node-encoder.svg?branch=master) ![license](https://img.shields.io/github/license/rocktimsaikia/node-encoder)
-[![NPM Badge](https://nodei.co/npm/node-encoder.png)](https://npmjs.com/package/node-encoder)
-> A zero dependency `base64` based Encoder and Decoder for Node.js. :unicorn:
+# node-encoder ![build](https://travis-ci.com/RocktimSaikia/node-encoder.svg?branch=master) ![npm](https://img.shields.io/npm/dm/node-encoder)
+ A zero dependency `base64` based Encoder and Decoder for Node.js. :unicorn: 
+
+<a href="https://npmjs.com/package/node-encoder"><img src="https://nodei.co/npm/node-encoder.png"></a>
 
 ## Install
 ```bash
