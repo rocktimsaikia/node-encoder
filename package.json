@@ -1,13 +1,22 @@
 {
 	"name": "node-encoder",
-	"version": "2.0.1",
-	"description": "A tiny node module to encode and decode base64 content",
+	"version": "2.0.2",
+	"description": "A tiny node module to encode and decode base64 string",
 	"keywords": [
 		"node-encoder",
+		"node-decoder",
 		"encode",
 		"decode",
 		"base64",
-		"utf-8"
+		"utf8",
+		"encoder",
+		"decoder",
+		"base64-encode",
+		"utf8-encode",
+		"base64-encoder",
+		"utf8-encoder",
+		"node-base64-encoder",
+		"node-base64-decoder"
 	],
 	"repository": "RocktimSaikia/node-encoder",
 	"license": "MIT",
@@ -17,7 +26,8 @@
 		"url": "https://rocktim.xyz"
 	},
 	"files": [
-		"index.js"
+		"index.js",
+		"index.d.ts"
 	],
 	"scripts": {
 		"test": "xo && ava --verbose"
@@ -27,6 +37,6 @@
 		"xo": "^0.33.0"
 	},
 	"engines": {
-		"node": ">=8"
+		"node": ">=10"
 	}
 }
