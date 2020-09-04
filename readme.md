@@ -1,4 +1,4 @@
-# node-encoder ![build](https://travis-ci.com/RocktimSaikia/node-encoder.svg?branch=master) ![npm](https://img.shields.io/npm/dm/node-encoder)
+# node-encoder [![build](https://img.shields.io/travis/websockets/ws/master.svg?logo=travis)](https://travis-ci.com/RocktimSaikia/node-encoder.svg?branch=master) ![npm](https://img.shields.io/npm/dm/node-encoder)
  A zero dependency `base64` based Encoder and Decoder for Node.js. :unicorn: 
 
 <a href="https://npmjs.com/package/node-encoder"><img src="https://nodei.co/npm/node-encoder.png"></a>
