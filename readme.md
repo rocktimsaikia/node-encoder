@@ -8,8 +8,8 @@ npm install node-encoder
 ```
 
 ## Highlights
-- Zero dependencies
-- Lightweight (`~4kb`)
+- Zero dependencies 🎉
+- Lightweight (`~4kb`) 🚀
 
 ## Usage
 
