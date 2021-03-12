@@ -2,6 +2,9 @@
 
 > A zero dependency :tada: base64 encoder and decoder for Node.js. 
 
+## Highlights
+- Zero dependencies
+- Lightweight (`~4kb`)
 
 ## Installation
 ```bash
