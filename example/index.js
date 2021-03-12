@@ -1,4 +1,4 @@
-const {encode, decode} = require('../lib')
+const { encode, decode } = require('../lib')
 
-console.log(encode('hello world'));
-console.log(decode('aGVsbG8gd29sZCE'));
+console.log(encode('hello world!'));
+console.log(decode('aGVsbG8gd29ybGQh'));

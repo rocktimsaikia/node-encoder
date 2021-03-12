@@ -16,9 +16,9 @@ npm install node-encoder
 ```js
 const {encode, decode} = require('node-encoder')
 
-encode('hello wold!') //=> aGVsbG8gd29sZCE=
+encode('hello world!') //=> aGVsbG8gd29ybGQh
 
-decode('aGVsbG8gd29sZCE=') //=> hello wold!
+decode('aGVsbG8gd29ybGQh') //=> hello world!
 ```
 
 ## API
