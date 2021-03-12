@@ -1,7 +1,7 @@
 {
 	"name": "node-encoder",
 	"version": "2.0.2",
-	"description": "A tiny node module to encode and decode base64 string",
+	"description": "A zero dependency base64 encoder and decoder for Node.js",
 	"keywords": [
 		"node-encoder",
 		"node-decoder",
@@ -23,18 +23,30 @@
 	"author": {
 		"name": "Rocktim Saikia",
 		"email": "rocktimthedev@gmail.com",
-		"url": "https://rocktim.xyz"
+		"url": "https://rocktimsaikia.now.sh/"
 	},
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
 	"files": [
-		"index.js",
-		"index.d.ts"
+		"lib/**/*"
 	],
 	"scripts": {
-		"test": "xo && ava --verbose"
+		"lint": "eslint .",
+		"test": "jest .",
+		"test:ex": "node example/index.js",
+		"prepublishOnly": "npm run test"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "npm test"
+		}
 	},
 	"devDependencies": {
-		"ava": "^3.11.1",
-		"xo": "^0.33.0"
+		"@types/jest": "^26.0.20",
+		"eslint": "^7.21.0",
+		"eslint-plugin-unicorn": "^28.0.2",
+		"husky": "^5.1.3",
+		"jest": "^26.6.3"
 	},
 	"engines": {
 		"node": ">=10"

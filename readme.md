@@ -1,9 +1,9 @@
-# node-encoder [![build](https://img.shields.io/travis/websockets/ws/master.svg?logo=travis)](https://travis-ci.com/RocktimSaikia/node-encoder.svg?branch=master) ![npm](https://img.shields.io/npm/dm/node-encoder)
- A zero dependency `base64` based Encoder and Decoder for Node.js. :unicorn: 
+# node-encoder [![Actions Status](https://github.com/rocktimsaikia/node-encoder/workflows/build/badge.svg)](https://github.com/rocktimsaikia/node-encoder/actions)
 
-<a href="https://npmjs.com/package/node-encoder"><img src="https://nodei.co/npm/node-encoder.png"></a>
+> A zero dependency :tada: base64 encoder and decoder for Node.js. 
 
-## Install
+
+## Installation
 ```bash
 npm install node-encoder
 ```
@@ -13,28 +13,20 @@ npm install node-encoder
 ```js
 const {encode, decode} = require('node-encoder')
 
+encode('hello wold!') //=> aGVsbG8gd29sZCE=
 
-encode('Everything is better with a unicorn 🦄')
-
-//=> RXZlcnl0aGluZyBpcyBiZXR0ZXIgd2l0aCBhIHVuaWNvcm4g8J+mhA==
-
-
-decode('QmUgYSBVbmljb3JuIPCfpoQgaW4gYSBGaWVsZCBGdWxsIG9mIEhvcnNlcw==')
-
-//=> Be a Unicorn 🦄 in a Field Full of Horses'
+decode('aGVsbG8gd29sZCE=') //=> hello wold!
 ```
 
 ## API
 
-### encode(input)
+### `encode(input)`
 
 Takes a single `utf-8/ascii` string input as argument and retuns it's `base64` encoded string version.
 
-### decode(input)
+### `decode(input)`
 
 Takes a single `base64` string input as argument and retuns it's `utf-8` decoded string version.
 
-
-## Support
-
-<a href="https://www.buymeacoffee.com/7BdaxfI"><img src="https://user-images.githubusercontent.com/33410545/91206759-48d5d180-e725-11ea-93b5-754d98c007af.png" height="70px"/></a>
+## License
+MIT 2021 &copy; [Rocktim Saikia](https://rocktimsaikia.now.sh)

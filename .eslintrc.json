@@ -1,0 +1,30 @@
+{
+    "env": {
+        "node": true,
+        "commonjs": true,
+        "es2021": true,
+        "jest": true
+    },
+    "plugins": [
+        "unicorn"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:unicorn/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "rules": {
+        "unicorn/prevent-abbreviations": "off",
+        "unicorn/no-array-callback-reference": "off",
+        "no-multi-spaces": "error",
+        "arrow-parens": "warn",
+        "no-multiple-empty-lines": [
+            "error",
+            {
+                "max": 1
+            }
+        ]
+    }
+}
